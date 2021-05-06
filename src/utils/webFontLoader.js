@@ -6,6 +6,10 @@ import WebFont from "webfontloader"
 
 WebFont.load({
   google: {
-    families: ["Fira+Sans:300,400,400i,600,700"],
+    families: [
+      "Fira+Sans:300,400,400i,600,700",
+      "Montserrat:700",
+      "Source+Sans+Pro:300,400,600,700",
+    ],
   },
 })
