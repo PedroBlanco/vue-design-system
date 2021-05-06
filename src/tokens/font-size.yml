@@ -4,16 +4,20 @@
 #
 
 props:
-  size_xxxl:
-    value: "64px"
-  size_xxl:
-    value: "48px"
-  size_xl:
+  size_xxxxxl:
     value: "36px"
+  size_xxxxl:
+    value: "28px"
+  size_xxxl:
+    value: "26px"
+  size_xxl:
+    value: "22px"
+  size_xl:
+    value: "20px"
   size_l:
-    value: "24px"
+    value: "17px"
   size_m:
-    value: "16px"
+    value: "15px"
   size_s:
     value: "13px"
   size_xs:
