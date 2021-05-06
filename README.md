@@ -10,6 +10,9 @@ El trabajo no está terminado; por ahora he _transcrito_ los estilos de los sigu
 - Tipografías y tamaños.
 - Enlaces.
 - Encabezados y textos.
+- Botones.
+- Campos de entrada (_input_ y _textarea_).
+- Barra de navegación (soporte preliminar).
 
 ## Requerimientos (lo que a mí me ha funcionado)
 
