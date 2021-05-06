@@ -32,7 +32,8 @@ export default {
 .heading {
   @include reset;
   @include stack-space($space-m);
-  font-family: $font-heading;
+  // Al tener h1 una fuente diferente, vamos a configurarlas en sus zonas
+  // font-family: $font-heading;
   line-height: $line-height-xs;
   color: $color-rich-black;
   @media #{$media-query-l} {
@@ -40,6 +41,7 @@ export default {
   }
 }
 h1 {
+  font-family: $font-heading-1;
   letter-spacing: $spacing-xs;
   font-size: $size-xxl;
   font-weight: $weight-semi-bold;
@@ -48,23 +50,28 @@ h1 {
   }
 }
 h2 {
+  font-family: $font-heading;
   letter-spacing: $spacing-s;
   font-size: $size-xxl;
   font-weight: $weight-semi-bold;
 }
 h3 {
+  font-family: $font-heading;
   font-size: $size-xl;
   font-weight: $weight-semi-bold;
 }
 h4 {
+  font-family: $font-heading;
   font-size: $size-l;
   font-weight: $weight-semi-bold;
 }
 h5 {
+  font-family: $font-heading;
   font-size: $size-m;
   font-weight: $weight-normal;
 }
 h6 {
+  font-family: $font-heading;
   font-size: $size-s;
   font-weight: $weight-normal;
 }
