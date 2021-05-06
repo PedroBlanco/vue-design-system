@@ -1,8 +1,35 @@
-# Cambios del fork
+# Cambios del _fork_
+
+## Adaptación al Manual de Identidad Corporativa
+
+He intentado _transcribir_ las pautas de diseño aplicables según el [Manual de Identidad Corporativa] de la [Junta de Andalucía] y especialmente el [Sistema de diseño del modelo de servicios digitales].
+
+El trabajo no está terminado; por ahora he _transcrito_ los estilos de los siguientes elementos:
+
+- Colores.
+- Tipografías y tamaños.
+- Enlaces.
+- Encabezados y textos.
+
+## Requerimientos (lo que a mí me ha funcionado)
+
+Para usar este fork de **Vue Design System** he utilizado un Windows 10 20H2 con Node.js versión 14.16.1.
+
+## Instrucciones de inicio
+
+La primera vez después del _fork_ Entre `install` y `start` he necesitado ejecutar `update`, por lo que la secuencia de órdenes la primera vez queda tal que así:
+
+```
+# npm install
+# npm update
+# npm start
+```
+
+## Cambios de configuración
 
 - `npm start` escucha en el puerto 9080, en vez de 8080.
 
-[![Build status](https://travis-ci.org/viljamis/vue-design-system.svg?branch=master)](https://travis-ci.org/viljamis/vue-design-system/) ![Dependencies status](https://david-dm.org/viljamis/vue-design-system.svg) ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg) [![Gitter](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/vueds/Lobby)
+---
 
 # Vue Design System
 
@@ -68,3 +95,7 @@ About to get started with a new design system? I’m an independent designer and
 [Viljami Salminen](https://viljamis.com), [Artem Sapegin](http://sapegin.me), [Rafael Escala](https://github.com/rafaesc), [react-styleguidist contributors](https://github.com/styleguidist/react-styleguidist/graphs/contributors), [vue-styleguidist contributors](https://github.com/vue-styleguidist/vue-styleguidist/graphs/contributors), [Vue.js contributors](https://github.com/vuejs/vue/graphs/contributors), [vue-webpack-boilerplate contributors](https://github.com/vuejs-templates/webpack/graphs/contributors), [Theo contributors](https://github.com/salesforce-ux/theo/graphs/contributors), and [Polaris contributors](https://github.com/Shopify/polaris).
 
 Licensed under the [MIT license](https://github.com/viljamis/vue-design-system/blob/master/LICENSE).
+
+[junta de andalucía]: https://juntadeandalucia.es/index.html
+[manual de identidad corporativa]: https://juntadeandalucia.es/organismos/presidenciaadministracionpublicaeinterior/areas/comunicacion-social/identidad-corporat-JdA.html
+[sistema de diseño del modelo de servicios digitales]: http://lajunta.es/msdsistemadiseno
