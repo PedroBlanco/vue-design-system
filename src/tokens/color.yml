@@ -8,6 +8,46 @@
 #
 
 aliases:
+  verde_hover:
+    value: "#0B4C1A"
+  verde_principal:
+    value: "#087021"
+  verde_apoyo:
+    value: "#C4DDCA"
+  blanco_apoyo:
+    value: "#F7FBF8"
+  blanco_fondo:
+    value: "#FFFFFF"
+  gris_principal:
+    value: "#333333"
+  gris_apoyo:
+    value: "#BEBEBE"
+  gris_contenedor:
+    value: "#EEEEEE"
+  gris_apoyo_especifico:
+    value: "#F5F5F5"
+  verde_exito:
+    value: "#2ABC67"
+  azul_informacion:
+    value: "#5BC0DE"
+  naranja_advertencia:
+    value: "#F0AD4E"
+  rojo_error:
+    value: "#D9534F"
+  grafico_1:
+    value: "#77B5C3"
+  grafico_2:
+    value: "#4863A3"
+  grafico_3:
+    value: "#9371AC"
+  grafico_4:
+    value: "#D87D7D"
+  grafico_5:
+    value: "#D9A46C"
+  grafico_6:
+    value: "#E3CD66"
+  negro:
+    value: "black"
   vermilion:
     value: "7, 83%"
   ucla_gold:
@@ -21,69 +61,127 @@ aliases:
   white:
     value: "#fff"
 props:
-  color_vermilion_darker:
-    value: "hsla({!vermilion}, 33%, 1)"
+  color_verde_hover:
+    value: "{!verde_hover}"
     category: color_group_1
-  color_vermilion_dark:
-    value: "hsla({!vermilion}, 43%, 1)"
+  color_verde_principal:
+    value: "{!verde_principal}"
     category: color_group_1
-  color_vermilion:
-    value: "hsla({!vermilion}, 53%, 1)"
+  color_verde_apoyo:
+    value: "{!verde_apoyo}"
     category: color_group_1
-  color_vermilion_light:
-    value: "hsla({!vermilion}, 63%, 1)"
+  color_blanco_apoyo:
+    value: "{!blanco_apoyo}"
     category: color_group_1
-  color_vermilion_lighter:
-    value: "hsla({!vermilion}, 75%, 1)"
+  color_blanco_fondo:
+    value: "{!blanco_fondo}"
     category: color_group_1
-
-  color_ucla_gold_darker:
-    value: "hsla({!ucla_gold}, 35%, 1)"
+  color_gris_principal:
+    value: "{!gris_principal}"
     category: color_group_2
-  color_ucla_gold_dark:
-    value: "hsla({!ucla_gold}, 45%, 1)"
+  color_gris_apoyo:
+    value: "{!gris_apoyo}"
     category: color_group_2
-  color_ucla_gold:
-    value: "hsla({!ucla_gold}, 52%, 1)"
+  color_gris_contenedor:
+    value: "{!gris_contenedor}"
     category: color_group_2
-  color_ucla_gold_light:
-    value: "hsla({!ucla_gold}, 65%, 1)"
+  color_gris_apoyo_especifico:
+    value: "{!gris_apoyo_especifico}"
     category: color_group_2
-  color_ucla_gold_lighter:
-    value: "hsla({!ucla_gold}, 75%, 1)"
-    category: color_group_2
-
-  color_bleu_de_france_darker:
-    value: "hsla({!bleu_de_france}, 34%, 1)"
+  color_exito:
+    value: "{!verde_exito}"
     category: color_group_3
-  color_bleu_de_france_dark:
-    value: "hsla({!bleu_de_france}, 44%, 1)"
+  color_informacion:
+    value: "{!azul_informacion}"
     category: color_group_3
-  color_bleu_de_france:
-    value: "hsla({!bleu_de_france}, 54%, 1)"
+  color_advertencia:
+    value: "{!naranja_advertencia}"
     category: color_group_3
-  color_bleu_de_france_light:
-    value: "hsla({!bleu_de_france}, 64%, 1)"
+  color_error:
+    value: "{!rojo_error}"
     category: color_group_3
-  color_bleu_de_france_lighter:
-    value: "hsla({!bleu_de_france}, 74%, 1)"
-    category: color_group_3
-
-  color_oxford_blue:
-    value: "hsla({!oxford_blue}, 15%, 1)"
+  color_grafico_1:
+    value: "{!grafico_1}"
     category: color_group_4
+  color_grafico_2:
+    value: "{!grafico_2}"
+    category: color_group_4
+  color_grafico_3:
+    value: "{!grafico_3}"
+    category: color_group_4
+  color_grafico_4:
+    value: "{!grafico_4}"
+    category: color_group_4
+  color_grafico_5:
+    value: "{!grafico_5}"
+    category: color_group_4
+  color_grafico_6:
+    value: "{!grafico_6}"
+    category: color_group_4
+
+  # color_vermilion_darker:
+  #   value: "hsla({!vermilion}, 33%, 1)"
+  #   category: color_group_1
+  # color_vermilion_dark:
+  #   value: "hsla({!vermilion}, 43%, 1)"
+  #   category: color_group_1
+  # color_vermilion:
+  #   value: "hsla({!vermilion}, 53%, 1)"
+  #   category: color_group_1
+  # color_vermilion_light:
+  #   value: "hsla({!vermilion}, 63%, 1)"
+  #   category: color_group_1
+  # color_vermilion_lighter:
+  #   value: "hsla({!vermilion}, 75%, 1)"
+  #   category: color_group_1
+
+  # color_ucla_gold_darker:
+  #   value: "hsla({!ucla_gold}, 35%, 1)"
+  #   category: color_group_2
+  # color_ucla_gold_dark:
+  #   value: "hsla({!ucla_gold}, 45%, 1)"
+  #   category: color_group_2
+  # color_ucla_gold:
+  #   value: "hsla({!ucla_gold}, 52%, 1)"
+  #   category: color_group_2
+  # color_ucla_gold_light:
+  #   value: "hsla({!ucla_gold}, 65%, 1)"
+  #   category: color_group_2
+  # color_ucla_gold_lighter:
+  #   value: "hsla({!ucla_gold}, 75%, 1)"
+  #   category: color_group_2
+
+  # color_bleu_de_france_darker:
+  #   value: "hsla({!bleu_de_france}, 34%, 1)"
+  #   category: color_group_3
+  # color_bleu_de_france_dark:
+  #   value: "hsla({!bleu_de_france}, 44%, 1)"
+  #   category: color_group_3
+  # color_bleu_de_france:
+  #   value: "hsla({!bleu_de_france}, 54%, 1)"
+  #   category: color_group_3
+  # color_bleu_de_france_light:
+  #   value: "hsla({!bleu_de_france}, 64%, 1)"
+  #   category: color_group_3
+  # color_bleu_de_france_lighter:
+  #   value: "hsla({!bleu_de_france}, 74%, 1)"
+  #   category: color_group_3
+
+  # color_oxford_blue:
+  #   value: "hsla({!oxford_blue}, 15%, 1)"
+  #   category: color_group_4
   color_rich_black:
-    value: "{!rich_black}"
-    category: color_group_4
+    value: "{!negro}"
+    category: color_group_5
   color_white:
-    value: "{!white}"
-    category: color_group_4
+    value: "{!blanco_fondo}"
+    category: color_group_5
   color_silver:
-    value: "#7F8891"
-    category: color_group_4
+    value: "{!gris_apoyo}"
+    category: color_group_5
   color_cloud:
-    value: "#E9F3FD"
-    category: color_group_4
+    value: "{!gris_contenedor}"
+    category: color_group_5
 global:
   type: color
   category: color

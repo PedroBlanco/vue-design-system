@@ -106,7 +106,7 @@ export default {
 
 <style lang="scss" scoped>
 // Design Tokens with local scope
-$color-placeholder: tint($color-silver, 50%);
+$color-placeholder: $color-silver;
 
 .textarea {
   @include stack-space($space-s);
@@ -122,7 +122,7 @@ $color-placeholder: tint($color-silver, 50%);
     cursor: pointer;
     display: block;
     font-size: $size-s;
-    color: tint($color-rich-black, 20%);
+    color: $color-rich-black;
     @include stack-space($space-xs);
   }
   textarea {
@@ -141,8 +141,7 @@ $color-placeholder: tint($color-silver, 50%);
     width: 100%;
     margin: 0;
     border: 0;
-    box-shadow: inset 0 1px 0 0 rgba($color-rich-black, 0.07),
-      0 0 0 1px tint($color-rich-black, 80%);
+    box-shadow: inset 0 1px 0 0 $color-verde-apoyo, 0 0 0 1px $color-verde-apoyo;
     &::-webkit-input-placeholder {
       -webkit-font-smoothing: antialiased;
       color: $color-placeholder;
@@ -157,12 +156,13 @@ $color-placeholder: tint($color-silver, 50%);
     }
     &:hover,
     &.hover {
-      box-shadow: 0 1px 5px 0 rgba($color-rich-black, 0.07), 0 0 0 1px tint($color-rich-black, 60%);
+      box-shadow: 0 1px 5px 0 rgba($color-verde-hover, 0.07),
+        0 0 0 1px tint($color-verde-hover, 60%);
     }
     &:focus,
     &.focus {
       transition: box-shadow 0.2s ease;
-      box-shadow: inset 0 0 0 1px $color-bleu-de-france, 0 0 0 1px $color-bleu-de-france;
+      box-shadow: inset 0 0 0 1px $color-verde-hover, 0 0 0 1px $color-verde-hover;
       outline: 0;
     }
     &[disabled] {
